@@ -24,7 +24,7 @@ test('Search for articles and verify results', async ({ page }) => {
   const count = await searchItems.count();
   expect(count).toBeGreaterThan(0);
 
-  // Step 6: Optionally, check for the visibility of the first search result
+  // Step 6: check for the visibility of the first search result
   const firstSearchItem = searchItems.nth(0);
   await expect(firstSearchItem).toBeVisible(); 
 });
