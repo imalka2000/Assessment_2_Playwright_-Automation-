@@ -5,9 +5,7 @@ This repository contains automated test scripts using Playwright to validate the
 The tests focus on the following key scenarios:
 
 •	Search for Articles: Verifies that the user can search for articles using keywords in the search bar.
-
 •	Apply Filters on Search Results: Ensures that users can filter search results by various criteria, including subject, date, publication, and content type.
-
 •	Redirection to "Training and Support" Page: Validates that clicking on relevant links redirects users to the "Training and Support" page as expected.
 
 
